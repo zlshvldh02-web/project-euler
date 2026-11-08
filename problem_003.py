@@ -15,7 +15,8 @@ def find_prime_factor(n):
             break
     return [sorted(answer), max(answer)]
 
-print(find_prime_factor(600851475143))
+if __name__ == "__main__":
+    print(find_prime_factor(600851475143))
 
 
 # 참고: 숫자가 아주 클 때(예: 30자리 이상)는 하나씩 나눠 보는 방법이 너무 느리다.
