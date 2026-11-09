@@ -9,7 +9,7 @@ limit = 2_000_000
 is_prime = [True] * limit
 is_prime[0] = is_prime[1] = False
 
-for i in range(2, math.isqrt(limit+1):
+for i in range(2, math.isqrt(limit)+1):
     if is_prime[i]:
         is_prime[i*i::i] = [False] * len(is_prime[i*i::i])
 
